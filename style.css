@@ -82,6 +82,7 @@ nav ul {
 .banner {
     display: flex;
     gap: 4.25rem;
+    justify-content: space-between;
 }
 
 .banner-items {
