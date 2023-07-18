@@ -1,23 +1,26 @@
 /* common section start */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 * {
     font-family: 'Work Sans', sans-serif;
 }
 
-header, main{
-    padding: 0 12rem;
+main {
+    padding: 0 10rem;
 }
+
 /* common section end */
 /* nav section start */
 .navbar-items {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3rem 6rem;
 }
 
 .navbar-brand {
@@ -29,10 +32,13 @@ header, main{
 
 nav ul li {
     list-style: none;
+    font-weight: 500;
 }
 
 nav ul li a {
     text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
 }
 
 nav ul {
@@ -44,7 +50,49 @@ nav ul {
 .follow-us {
     border-radius: 6px;
     background: #0b02231a;
-    padding: 1.25rem;
+    padding: 1.25rem 1.5rem;
 }
 
 /* nav section end */
+
+/* banner section start */
+.banner {
+    display: flex;
+    gap: 4.25rem;
+}
+
+.banner-items {
+    background-image: url('images/Group 14.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 6rem;
+}
+
+.banner-items-title {
+    margin-top: 9.25rem;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-items-highlighter {
+    font-size: 6rem;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-items ul li{
+    list-style: none;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner > img {
+    width: 50%;
+    max-width: 44rem;
+    padding-right: 6rem;
+}
