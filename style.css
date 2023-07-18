@@ -87,8 +87,8 @@ nav ul {
 .banner-items {
     background-image: url('images/Group 14.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 40%;
+    background-size: contain;
+    width: 50%;
     padding-left: 6rem;
 }
 
@@ -123,5 +123,6 @@ nav ul {
 }
 .banner > img {
     width: 60%;
-    max-width: 35rem;
+    max-width: 34rem;
+    margin-right: 6rem;
 }
