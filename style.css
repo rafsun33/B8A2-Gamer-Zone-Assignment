@@ -1,11 +1,12 @@
 /* common section start */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --primary-color: #FF42A5;
     --secondary-color: #FFF;
     --tertiary-color: #4EC5F7;
@@ -17,7 +18,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn-primary{
+.btn-primary {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: var(--secondary-color);
@@ -27,9 +28,10 @@
     border: none;
 }
 
-.rogue-btn{
+.rogue-btn {
     background-color: var(--tertiary-color);
 }
+
 /* common section end */
 /* nav section start */
 .navbar-items {
@@ -38,11 +40,13 @@
     justify-content: space-between;
     padding: 3rem 6rem;
 }
-.brand-text{
+
+.brand-text {
     background: -webkit-linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -106,41 +110,47 @@ nav ul {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-items ul li{
+.banner-items ul li {
     list-style: none;
     color: #534C64;
     font-size: 1rem;
     font-weight: 500;
     text-transform: lowercase;
     line-height: 2rem;
-    
+
 }
-.banner-items ul{
+
+.banner-items ul {
     margin-bottom: 1.25rem;
 }
-.banner > img {
+
+.banner>img {
     width: 60%;
     max-width: 34rem;
     margin-right: 6rem;
 }
+
 /* banner section end */
 /* Online games section start */
 main {
     margin: 0 6rem;
 }
-.gradient-colored-title{
+
+.gradient-colored-title {
     background: -webkit-linear-gradient(var(--quaternary-color), var(--quinary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.online-games-title{
+
+.online-games-title {
     text-align: center;
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
     margin-top: 5rem;
 }
-.online-games-description{
+
+.online-games-description {
     text-align: center;
     color: #534C64;
     font-size: 1.25rem;
@@ -148,20 +158,23 @@ main {
     margin-bottom: 3rem;
 }
 
-.online-games-img{
+.online-games-img {
     display: flex;
     gap: 1.5rem;
 }
+
 /* Online games section end */
 
 /* Play games section start */
-.play-games-img{
+.play-games-img {
     position: relative;
 }
+
 .play-games-img .under {
     max-width: 30rem;
     border-radius: .5rem;
 }
+
 .play-games-img .over {
     max-width: 12rem;
     border-radius: .5rem;
@@ -169,30 +182,74 @@ main {
     left: 23.75rem;
     top: 19rem;
 }
-.play-games{
+
+.play-games {
     margin-top: 7.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* gap: 7rem; */
 }
-.play-games-title{
+
+.play-games-title {
     max-width: 26rem;
     font-size: 3rem;
     font-weight: 700;
 }
-.play-games-description{
+
+.play-games-description {
     max-width: 28rem;
     color: #534C64;
     font-size: 1rem;
     line-height: 2rem;
 }
+
 /* Play games section end */
 
 /* Game names section start */
-.game-names{
+.game-names {
     margin-top: 12rem;
+}
+
+.game-names > div {
     display: flex;
     align-items: center;
+    
+}
+.action{
+    grid-area: action;
+}
+.adventure{
+    grid-area: adventure;
+}
+.arcade{
+    grid-area: arcade;
+}
+.educational{
+    grid-area: educational;
+} 
+.word{
+    grid-area: word;
+} 
+.role-playing{
+    grid-area: role-playing;
+} 
+.music-audio{
+    grid-area: music-audio;
+} 
+.puzzle{
+    grid-area: puzzle;
+} 
+.strategy{
+    grid-area: strategy;
+}
+.game-names {
+    display: grid;
+    grid-template-areas: 
+        "action adventure arcade educational word";
+        /* "role-playing music-audio puzzle strategy" */
+        /* "role-playing" */
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 1rem;
 }
 /* Game names section end */
