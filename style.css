@@ -159,13 +159,40 @@ main {
     position: relative;
 }
 .play-games-img .under {
-    max-width: 24rem;
+    max-width: 30rem;
+    border-radius: .5rem;
 }
 .play-games-img .over {
-    max-width: 10rem;
+    max-width: 12rem;
+    border-radius: .5rem;
     position: absolute;
-    left: 17.75rem;
-    top: 14rem;
-    z-index: 1;
+    left: 23.75rem;
+    top: 19rem;
+}
+.play-games{
+    margin-top: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 7rem; */
+}
+.play-games-title{
+    max-width: 26rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-games-description{
+    max-width: 28rem;
+    color: #534C64;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 /* Play games section end */
+
+/* Game names section start */
+.game-names{
+    margin-top: 12rem;
+    display: flex;
+    align-items: center;
+}
+/* Game names section end */
