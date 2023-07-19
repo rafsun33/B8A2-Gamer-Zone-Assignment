@@ -254,6 +254,19 @@ main {
     font-size: 1rem;
     line-height: 2rem;
 }
+/* mobile device */
+@media screen and (max-width: 575px) {
+    .play-games {
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .play-games {
+        flex-direction: column;
+    }
+}
 
 /* Play games section end */
 
