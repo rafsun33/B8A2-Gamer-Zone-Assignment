@@ -201,6 +201,20 @@ main {
     gap: 1.5rem;
 }
 
+/* mobile device */
+@media screen and (max-width: 575px) {
+    .online-games-img {
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .online-games-img {
+        flex-direction: column;
+    }
+}
+
 /* Online games section end */
 
 /* Play games section start */
