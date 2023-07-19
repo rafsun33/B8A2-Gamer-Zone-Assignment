@@ -78,6 +78,28 @@ nav ul {
     padding: 1.25rem 1.5rem;
 }
 
+/* mobile device */
+@media screen and (max-width: 575px) {
+    .navbar-items {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .navbar-items {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
 /* nav section end */
 
 /* banner section start */
@@ -129,6 +151,20 @@ nav ul {
     width: 60%;
     max-width: 34rem;
     margin-right: 6rem;
+}
+
+/* mobile device */
+@media screen and (max-width: 575px) {
+    .banner {
+        flex-direction: column;
+    }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .banner {
+        flex-direction: column;
+    }
 }
 
 /* banner section end */
