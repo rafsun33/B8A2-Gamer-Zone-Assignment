@@ -124,6 +124,7 @@ nav ul {
     margin-right: 6rem;
 }
 /* banner section end */
+/* Online games section start */
 main {
     margin: 0 6rem;
 }
@@ -143,7 +144,6 @@ main {
     text-align: center;
     color: #534C64;
     font-size: 1.25rem;
-    /* line-height: 2rem; */
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
@@ -152,3 +152,20 @@ main {
     display: flex;
     gap: 1.5rem;
 }
+/* Online games section end */
+
+/* Play games section start */
+.play-games-img{
+    position: relative;
+}
+.play-games-img .under {
+    max-width: 24rem;
+}
+.play-games-img .over {
+    max-width: 10rem;
+    position: absolute;
+    left: 19rem;
+    top: 15rem;
+    z-index: 1;
+}
+/* Play games section end */
